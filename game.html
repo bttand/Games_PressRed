@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- settings -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Press the Red Square</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/main.css">
+</head>
+<body>
+
+    <main class="box">
+        <div class="menu">
+            <div class="menu-time">
+                <h2>Time Left</h2>
+                <h2 class="number" id="time-left">15</h2>
+            </div>
+            <div class="menu-score">
+                <h2>Your Score</h2>
+                <h2 class="number" id="score">0</h2>
+            </div>
+        </div>
+        <div class="panel" id="panel">
+        </div>
+    </main>
+    <script defer src="./src/scripts/engine.js"></script>
+</body>
+</html>
