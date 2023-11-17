@@ -12,7 +12,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 
     <!-- styles -->
-    <link rel="stylesheet" href="./src/styles/reset.css">
     <link rel="stylesheet" href="./src/styles/main.css">
     <link rel="icon" type="image/x-icon" href="./src/images/favicon.ico">
 </head>
@@ -22,6 +21,10 @@
             <div class="menu-time">
                 <h2>Time Left</h2>
                 <h2 class="number" id="time-left">15</h2>
+            </div>
+            <div class="menu-buttons">
+                <button class="btn-round-reload" onclick="window.location.reload()"><img id="restart" src="./src/images/restart.jpg" alt="restart"></button>
+                <button class="btn-round-return" onclick="window.location.href='index.html'"><img id="return" src="./src/images/return.jpg" alt="return"></button>
             </div>
             <div class="menu-score">
                 <h2>Your Score</h2>
